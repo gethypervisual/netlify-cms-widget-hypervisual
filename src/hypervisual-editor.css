@@ -1,0 +1,36 @@
+.hypervisual__static-editor {
+  background-color: rgba(0,0,0,0.5);
+  position: absolute;
+  z-index: 1000;
+  display: flex;
+  cursor: pointer;
+}
+
+.hypervisual__static-editor.open {
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.hypervisual__static-editor.closed {
+  top: 0;
+  height: 0;
+  overflow: hidden;
+}
+
+.hypervisual__static-editor svg {
+  width: 30px;
+  height: 40px;
+  margin: 10px;
+  enable-background: new 0 0 512 512;
+}
+
+.hypervisual__static-editor-iframe {
+  background: transparent;
+  border: none;
+  width: 100%;
+  height: 100%;
+  display: block;
+  box-shadow: -20px 50px 50px -20px rgba(0,0,0,0.5);
+}
