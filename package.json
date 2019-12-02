@@ -8,7 +8,7 @@
     "widget",
     "hypervisual"
   ],
-  "version": "0.0.1-alpha4",
+  "version": "0.0.1-alpha5",
   "homepage": "https://github.com/gethypervisual/netlify-cms-widget-hypervisual",
   "license": "MIT",
   "main": "dist/main.js",

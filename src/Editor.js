@@ -89,7 +89,7 @@ export default class Editor extends React.Component {
             </g>
           </g>
         </svg>
-        <iframe ref={this.editorIframeRef} allowTransparency="true" class="hypervisual__static-editor-iframe" src="http://hypervisual-static.test/"></iframe>
+        <iframe ref={this.editorIframeRef} allowTransparency="true" class="hypervisual__static-editor-iframe" src="https://hypervisual-static.test/"></iframe>
       </div>
     )
 
